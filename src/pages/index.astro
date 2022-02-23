@@ -1,10 +1,35 @@
 ---
   // @ts-ignore
-	import BaseLayout from "..//layouts/base.layout.svelte"
+	import BaseLayout from "../layouts/base.layout.svelte"
 ---
-<BaseLayout title="Homepage">
-  <div class="p-24">
-    <h1 class="text-purple-900">Hello, world!</h1>
-    <p>This is my page content. It will be nested inside a layout.</p>
+<BaseLayout title="Bug | Surendar Kalyanam">
+  <div class=" w-screen h-screen overflow-x-hidden">
+    <div class="p-10">
+      <h1 class="text-3xl sure">Bug</h1>
+    </div>
+    <div class="flex p-20 box-border">
+      <div class=" flex flex-col text-8xl sure-i w-1/2">
+        <span>
+          I'm a fullstack <span class="js">javascript</span> developer. Who loves <span class="svelte">front end frameworks.</span>
+        </span>
+
+      </div>
+      <div class="bg-custom w-1/2 min-h-screen rounded-xl p-8">
+          <div class=" flex flex-col bg-custom-inner w-full h-full rounded-xl p-8 space-y-4">
+            <div class="space-x-1">
+              <span class="text-base06 font-sure-italic">import</span>
+              <span class="text-base08 font-sure-italic">&lbrace;</span>
+              <span class="text-base05 font-sure-italic">Info</span>
+              <span class="text-base08 font-sure-italic">&rbrace;</span>
+              <span class="text-base06 font-sure-italic">form</span>
+              <span class="text-base07 font-sure-italic">"@contact/details";</span>
+            </div>
+            <div class="space-x-0 flex flex-col">
+              <span class="text-base08 font-sure-italic">@Info(<span class="text-base06 font-sure-italic">&lbrace;</span></span>
+            </div>
+          </div>
+      </div>
+    </div>
   </div>
+
 </BaseLayout>
