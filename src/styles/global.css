@@ -20,6 +20,7 @@
   --base06: #d83bd2;
   --base07: #63c760;
   --base08: #fecc1b;
+  --base09: #59a8ff;
 }
 body {
   background-color: var(--base01);
@@ -68,4 +69,8 @@ body {
 
 .text-base08 {
   color: var(--base08);
+}
+
+.text-base09 {
+  color: var(--base09);
 }
