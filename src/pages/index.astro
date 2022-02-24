@@ -1,10 +1,19 @@
 ---
   // @ts-ignore
-	import BaseLayout from "../layouts/base.layout.svelte";
-  // @ts-ignore
   import Comma from "../components/comma.svelte";
 ---
-<BaseLayout title="Bug | Surendar Kalyanam">
+  
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Bug | Surendar Kalyanam</title>
+    <link
+    rel="stylesheet"
+    href={Astro.resolve("../styles/global.css")}
+  >
+	</head>
+	<body>
   <div class=" w-screen h-screen overflow-x-hidden">
     <div class="p-10">
       <h1 class="text-3xl sure">Bug</h1>
@@ -140,5 +149,5 @@
       </div>
     </div>
   </div>
-
-</BaseLayout>
+	</body>
+</html>
